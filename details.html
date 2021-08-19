@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Let's Go Airlines</title>
+    <title>Details-Let's Go Airlines</title>
     <link rel="stylesheet" href="details.css">
+
+
     <link rel="icon" href="favicon-16x16.png" type="image/png" sizes="16x16">
   </head>
-    <body>
-        <form>
-            <h1>Passenger Information</h1>
-            <div class="row">
-              <div class="col">
-                <label>First name:</label>
-                <input type="text" class="form-control" placeholder="First name"><br>
-              </div>
-              </div>
-              <div class="col">
-                <label>Last name:</label>
-                <input type="text" class="form-control" placeholder="Last name">
-              </div>
-              <div class="form-group row">
-                  <label for="age" class="col-sm-2 col-form-label">Age:</label>
-                  <input type="number" class="form-control" id="age" placeholder="Age">
-              </div>
-              <div class="form-group row">
-                <label for="radio" class="col-sm-2 col-form-label">Gender:</label>
-                <input type="radio" name="gender" value="male"> Male
-                <input type="radio" name="gender" value="female"> Female
-                <input type="radio" name="gender" value="other"> Other
-              </div>
-            </div>
-                <div class="form-group row">
-                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  
-                </div>
-                <div class="form-group row">
-                    <label for="number" class="col-sm-2 col-form-label">Phone Number:</label>
-                    <input type="number" class="form-control" id="number" placeholder="Mobile">
-                </div>
-                <div class="form-group row">
-                  <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary book">Book Ticket</button>
-                  </div>
-                </div>
-              
-          </form>
+    <body>    
+             
+          <form >
+              <h1>Passenger Information</h1>
+            <table>
+             <tr>
+              <td>First Name :</td> <td><input type="text" name="fname" placeholder="First Name"></td><br>
+             </tr>
+             <tr>
+              <td>Last Name :</td> <td><input type="text" name="lname"placeholder="Last Name"></td><br>
+             </tr>
+             <tr>
+              <td>Age :</td> <td><input type="number" name="age" placeholder="Age"></td><br>
+             </tr>
+             <tr><td>Gender :</td><td>
+              <input type="radio" name="gender" value="male"> Male
+              <input type="radio" name="gender" value="female"> Female
+              <input type="radio" name="gender" value="other"> Other
+            </td>
+             </tr>
+             <tr>
+              <td>Email :</td> <td><input type="text" name="email" placeholder="Email"></td><br>
+             </tr>
+             <tr>
+              <td>Phone Number :</td> <td><input type="number" name="pnum" placeholder="Phone Number"><br>
+             </tr>
+             <tr>
+              <td><button type="submit" class="btn btn-primary book">Book Ticket</button></td>
+             </tr>
+            </table>
+           </form>
+     </body>
     </body>
 </html>
