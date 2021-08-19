@@ -43,3 +43,9 @@
   text-align: inherit;
   transform: rotateY(180deg);
 }
+.input-grp{
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 500px;
+  display: inline-block;
+}
